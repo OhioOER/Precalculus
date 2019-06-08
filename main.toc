@@ -1,9 +1,1 @@
-\contentsline {subsection}{Exercises}{15}{subsection*.2}
-\contentsline {subsection}{Applications of Radian Measure: Circular Motion}{30}{subsection*.4}
-\contentsline {subsection}{Exercises}{33}{subsection*.5}
-\contentsline {subsection}{Inverses of Secant and Cosecant: Trigonometry Friendly Approach}{46}{subsection*.6}
-\contentsline {subsection}{Inverses of Secant and Cosecant: Calculus Friendly Approach}{50}{subsection*.7}
-\contentsline {subsection}{Calculators and the Inverse Circular Functions.}{55}{subsection*.8}
-\contentsline {subsection}{Solving Equations Using the Inverse Trigonometric Functions.}{60}{subsection*.9}
-\contentsline {subsection}{Exercises}{63}{subsection*.10}
 \contentsfinish 
