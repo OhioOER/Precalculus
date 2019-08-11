@@ -252,7 +252,7 @@ In Exercises \ref{lcdmaxprofitexerfirst} - \ref{lcdmaxprofitexerlast}, suppose t
 \setcounter{enumi}{\value{HW}}
 
 
-\item We now revisit the data set from Exercise \ref{regsunlight} in Section \ref{Regression}.  In that exercise, you were given a chart of the number of hours of daylight they get on the $21^{\mbox{st}}$ of each month in Fairbanks, Alaska based on the 2009 sunrise and sunset data found on the  \href{http://aa.usno.navy.mil/data/docs/RS_OneYear.php}{\underline{U.S. Naval Observatory}} website.  We let $x = 1$ represent January 21, 2009, $x = 2$ represent February 21, 2009, and so on.  The chart is given again for reference.
+\item We now revisit the data set from Exercise \ref{regsunlight} in Section \ref{Regression}.  In that exercise, you were given a chart of the number of hours of daylight they get on the $21^{\text{st}}$ of each month in Fairbanks, Alaska based on the 2009 sunrise and sunset data found on the  \href{http://aa.usno.navy.mil/data/docs/RS_OneYear.php}{\underline{U.S. Naval Observatory}} website.  We let $x = 1$ represent January 21, 2009, $x = 2$ represent February 21, 2009, and so on.  The chart is given again for reference.
 
 \medskip
 
@@ -377,11 +377,11 @@ As $x \rightarrow -\infty, \; f(x) \rightarrow -\infty$\\
 As $x \rightarrow \infty, \; f(x) \rightarrow \infty$\\
 
 
-\item $s(t) = -4.9t^{2} + v_{\mbox{ $0$}}t + s_{\mbox{ $0$}}$\\
+\item $s(t) = -4.9t^{2} + v_{0}t + s_{0}$\\
 Degree 2 \\
 Leading term $-4.9t^{2}$\\
 Leading coefficient $-4.9$\\
-Constant term $s_{\mbox{ $0$}}$\\
+Constant term $s_{0}$\\
 As $t \rightarrow -\infty, \; s(t) \rightarrow -\infty$\\
 As $t \rightarrow \infty, \; s(t) \rightarrow -\infty$\\
 
@@ -860,7 +860,7 @@ range: $(-\infty, 8]$\\
 
 \item Our ultimate goal is to maximize the volume, so we'll start with the maximum Length $+$ Girth of $130.$  This means the length is $130 - 4x$.  The volume of a rectangular box is always length $\times$ width $\times$ height so we get $V(x) = x^{2}(130 - 4x) = -4x^{3} + 130x^{2}$.  
 
-\item Graphing $y = V(x)$ on $[0, 33] \times [0, 21000]$ shows a maximum at $(21.67, 20342.59)$ so the dimensions of the box with maximum volume are $21.67\mbox{in.} \times 21.67\mbox{in.} \times 43.32\mbox{in.}$ for a volume of $20342.59\mbox{in.}^{3}$.
+\item Graphing $y = V(x)$ on $[0, 33] \times [0, 21000]$ shows a maximum at $(21.67, 20342.59)$ so the dimensions of the box with maximum volume are $21.67\text{in.} \times 21.67\text{in.} \times 43.32\text{in.}$ for a volume of $20342.59\text{in.}^{3}$.
 
 \item If we start with Length $+$ Girth $= 108$ then the length is $108 - 4x$ and the volume is $V(x) = -4x^{3} + 108x^{2}$.  Graphing $y = V(x)$ on $[0, 27] \times [0, 11700]$ shows a maximum at $(18.00, 11664.00)$ so the dimensions of the box with maximum volume are $18.00\mbox{in.} \times 18.00\mbox{in.} \times 36\mbox{in.}$ for a volume of $11664.00\mbox{in.}^{3}$.  (Calculus will confirm that the measurements which maximize the volume are \underline{exactly} 18in. by 18in. by 36in., however, as I'm sure you are aware by now, we treat all calculator results as approximations and list them as such.)
 
@@ -876,11 +876,11 @@ range: $(-\infty, 8]$\\
 \setcounter{enumi}{\value{HW}}
 
 
-\item The cubic regression model is $p_{\mbox{ $3$}}(x) = 0.0226x^{3} - 0.9508x^{2} + 8.615x - 3.446$.  It has $R^{2} = 0.93765$ which isn't bad.  The graph of $y = p_{\mbox{ $3$}}(x)$ in the viewing window $[-1,13] \times [0, 24]$ along with the scatter plot is shown below on the left.  Notice that $p_{\mbox{ $3$}}$ hits the $x$-axis at about $x = 12.45$ making this a bad model for future predictions.  To use the model to approximate the number of hours of sunlight on your birthday, you'll have to figure out what decimal value of $x$ is close enough to your birthday and then plug it into the model.  My (Jeff's) birthday is July 31 which is 10 days after July 21 ($x = 7$).  Assuming 30 days in a month, I think $x = 7.33$ should work for my birthday and $p_{\mbox{ $3$}}(7.33) \approx 17.5$.  The website says there will be about $18.25$ hours of daylight that day.  To have 14 hours of darkness we need 10 hours of daylight.  We see that $p_{\mbox{ $3$}}(1.96) \approx 10$ and $p_{\mbox{ $3$}}(10.05) \approx 10$ so it seems reasonable to say that we'll have at least 14 hours of darkness from December 21, 2008 ($x = 0$) to February 21, 2009 ($x = 2$) and then again from October 21,2009 ($x = 10$) to December 21, 2009 ($x = 12$).
+\item The cubic regression model is $p_{3}(x) = 0.0226x^{3} - 0.9508x^{2} + 8.615x - 3.446$.  It has $R^{2} = 0.93765$ which isn't bad.  The graph of $y = p_{3}(x)$ in the viewing window $[-1,13] \times [0, 24]$ along with the scatter plot is shown below on the left.  Notice that $p_{3}$ hits the $x$-axis at about $x = 12.45$ making this a bad model for future predictions.  To use the model to approximate the number of hours of sunlight on your birthday, you'll have to figure out what decimal value of $x$ is close enough to your birthday and then plug it into the model.  My (Jeff's) birthday is July 31 which is 10 days after July 21 ($x = 7$).  Assuming 30 days in a month, I think $x = 7.33$ should work for my birthday and $p_{3}(7.33) \approx 17.5$.  The website says there will be about $18.25$ hours of daylight that day.  To have 14 hours of darkness we need 10 hours of daylight.  We see that $p_{3}(1.96) \approx 10$ and $p_{3}(10.05) \approx 10$ so it seems reasonable to say that we'll have at least 14 hours of darkness from December 21, 2008 ($x = 0$) to February 21, 2009 ($x = 2$) and then again from October 21,2009 ($x = 10$) to December 21, 2009 ($x = 12$).
 
 \smallskip
 
-The quartic regression model is $p_{\mbox{ $4$}}(x) = 0.0144x^{4} - 0.3507x^{3} + 2.259x^{2} - 1.571x + 5.513$.  It has $R^{2} = 0.98594$ which is good.  The graph of $y = p_{\mbox{ $4$}}(x)$ in the viewing window $[-1, 15] \times [0, 35]$ along with the scatter plot is shown below on the right.  Notice that $p_{\mbox{ $4$}}(15)$ is above $24$ making this a bad model as well for future predictions.  However, $p_{\mbox{ $4$}}(7.33) \approx 18.71$ making it much better at predicting the hours of daylight on July 31 (my birthday).  This model says we'll have at least 14 hours of darkness from December 21, 2008 ($x = 0$) to about March 1, 2009 ($x = 2.30$) and then again from October 10, 2009 ($x = 9.667$) to December 21, 2009 ($x = 12$).
+The quartic regression model is $p_{4}(x) = 0.0144x^{4} - 0.3507x^{3} + 2.259x^{2} - 1.571x + 5.513$.  It has $R^{2} = 0.98594$ which is good.  The graph of $y = p_{4}(x)$ in the viewing window $[-1, 15] \times [0, 35]$ along with the scatter plot is shown below on the right.  Notice that $p_{4}(15)$ is above $24$ making this a bad model as well for future predictions.  However, $p_{4}(7.33) \approx 18.71$ making it much better at predicting the hours of daylight on July 31 (my birthday).  This model says we'll have at least 14 hours of darkness from December 21, 2008 ($x = 0$) to about March 1, 2009 ($x = 2.30$) and then again from October 10, 2009 ($x = 9.667$) to December 21, 2009 ($x = 12$).
 
 \begin{center}
 
@@ -888,7 +888,7 @@ The quartic regression model is $p_{\mbox{ $4$}}(x) = 0.0144x^{4} - 0.3507x^{3} 
 
 %\includegraphics[width=2in]{./PolynomialsGraphics/REG3.jpg} \hspace{.25in} & \includegraphics[width=2in]{./PolynomialsGraphics/REG4.jpg} \\
 
-$y = p_{\mbox{ $3$}}(x)$ \hspace{.25in} & $y = p_{\mbox{ $4$}}(x)$ \\
+$y = p_{3}(x)$ \hspace{.25in} & $y = p_{4}(x)$ \\
 
 \end{tabular}
 
